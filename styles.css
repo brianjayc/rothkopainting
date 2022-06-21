@@ -1,0 +1,54 @@
+.frame {
+  border-color:black;
+  border-width: 50px;
+  border-style:solid;
+  background-color: white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.canvas {
+  background-color:rgb(71, 26, 26);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 540px;
+  padding-top: 20px;
+  filter: blur(2px);
+}
+
+.box1 {
+  background-color: burlywood;
+  width: 360px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  transform: rotate(10deg);
+  border-radius: 80px 20px;
+}
+
+.box2 {
+  background-color:darkred;
+  width: 360px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  transform: rotate(-10deg);
+  border-radius: 5px 10px 20px 15px;
+}
+
+.box3 {
+  background-color:red;
+  width: 360px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(5deg);
+  border-radius: 20px;
+}
